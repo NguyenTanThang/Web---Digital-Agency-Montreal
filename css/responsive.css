@@ -1,0 +1,36 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    .lg-heading {
+        font-size: 6rem;
+    }
+
+    .contact-item:nth-child(2) .contact-img {
+        margin-left: 10px;
+    }
+
+    .portfolio-grid {
+        grid-template-areas:
+            "grid-item-1 grid-item-1"
+            "grid-item-1 grid-item-1"
+            "grid-item-2 grid-item-2"
+            "grid-item-3 grid-item-3"
+            "grid-item-4 grid-item-4"
+            "grid-item-5 grid-item-5"
+    }
+
+    .open {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .portfolio-grid {
+        grid-template-areas:
+            "grid-item-1 grid-item-2"
+            "grid-item-1 grid-item-3"
+            "grid-item-4 grid-item-5"
+    }
+
+    .open {
+        width: 70%;
+    }
+}
